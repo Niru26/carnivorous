@@ -1,5 +1,7 @@
 # Homework 1 by N.Rudakov
 # Task 4
+import os
+os.system('cls')
 
 total_cranes_qty = int(input("Enter paper cranes quantity: "))
 flag = True
