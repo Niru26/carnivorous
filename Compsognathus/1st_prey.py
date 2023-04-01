@@ -5,7 +5,7 @@ import os
 import random
 
 os.system('cls')
-array_size = int(input("Enter array size: "))
+array_size = int(input("Enter list size: "))
 tested_array = [random.randint(1, 5) for _ in range(array_size)]
 print(tested_array)
 
@@ -20,6 +20,8 @@ def find_index():
             counter += 1
             index_list += str(index) + ' '
         index += 1
+    if counter == 0:
+        return print("There is no such element in list")
     print(f"We found {counter} elements, at {index_list}indexes")
 
 
