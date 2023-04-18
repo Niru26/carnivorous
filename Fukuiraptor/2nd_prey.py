@@ -1,5 +1,5 @@
 # Homework 6 by N.Rudakov
-# Task 30
+# Task 32
 
 import random
 import os
